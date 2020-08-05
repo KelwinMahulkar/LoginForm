@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<!--   
+      Author: Kelwin Mahulkar
+      Date:   30 March, 2020.
+
+   -->
+   
+<meta charset="utf-8" />
+   <title>Kelwin Mahulkar W0754056</title>   
+   <link href="MT_visual.css" rel="stylesheet" />
+  <link href="MT_forms.css" rel="stylesheet" />
+  <link href="MT_validate.css" rel="stylesheet" />
+  
+   <script src="rb_formsubmit2.js"></script>
+   
+</head>
+
+<body>
+<meta charset="utf-8" />
+<article class="form">
+   <section id="first">
+   <article class="judge">
+	<header>
+		<h1>FORM</h1>			
+			
+			<nav class="horizontal" id="mainLinks">
+         <ul>
+            <li><a href="MT_lifecycle.html">Life Cycle of a Frog</a></li>
+            <li><a href="MT_homepage.html">Home Page</a></li>
+         </ul>
+      </nav>
+	</header>
+	</article>
+	</br>
+      <h1>Get more Info by becoming a member</h1>
+	  
+		 
+		 <form action="http://www.frogexample.com/frog/info" method="post">
+			
+			
+		<!-- first fieldset-->	
+		<fieldset id="accountInfo">
+			<legend>Login - Create Account</legend>
+			<div>
+				<label for="nameBox">Name*</label>
+				<input name="custName" id="nameBox" type="text" required placeholder="First and Last Name" />
+			</div>	
+			
+			<div>
+				<label for="phoneBox">Phone*</label>
+				<input name="custPhone" id="phoneBox" type="tel" required placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+			</div>			
+			
+			<div>
+				<label for="mailBox">E-mail*</label>
+				<input name="custMail" id="mailBox" type="email" required placeholder="abc67@xmail.com" />
+			
+			</div>
+			
+			<div>
+				<label>Country</label>
+				<input name="countryName" id="country" type="text" value="Canada" />
+			</div>
+			
+			<div>
+				<div>
+					<label>Enter Gender</label></br>
+					<label for="Gender"><h5>Male</h5></label>
+					<input name="gender" type="radio" value="male" />
+					<label for="Gender"><h5>Female</h5></label>
+					<input name="gender" type="radio" value="female" />
+				</div>
+			</div>
+			
+		</fieldset>
+		
+
+<!-- second fieldset -->		
+		<fieldset id="otherInfo">
+			<legend>Other Info</legend>
+			
+			
+			
+			<div class="formRow">
+				<label for="feed">What else you want to be added in your account?</label>
+				
+				<select name="orderType">
+				<option value="type1">Others</option>
+				<option value="type2">About new frog species</option>
+				<option value="type3" selected>Botanical Info</option>
+				</select>
+			</div>
+			
+			<div>
+			<input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+				<label for="mailCB">Notify me via E-mail</label>
+			</div></br>
+			
+			<div>
+				<label for="dayBox">Notify me every _ days :</label>
+				<input name="dayQuantity" id="dayBox" type="number" value="1" step="1" max="6" min="1"	/>
+			</div>
+			
+			
+			
+		</fieldset>	
+		
+			<div id="submit">
+				<input type="submit" value="Create Account" />
+			</div>
+			
+			<div>
+				<input type="reset" value="Reset" />
+			</div>
+			
+         </form>
+         
+   </section>
+</article>
+   <footer>
+   
+      <section>TOPIC - FROG ; Student@Name- KELWIN MAHULKAR & Student ID# W0754056</section>
+
+   </footer>
+</body>
+</html>

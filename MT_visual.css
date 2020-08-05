@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* 
+	Author  : Kelwin Mahulkar
+	Date	: 30 March, 2020.
+
+*/
+
+
+
+
+/* HTML Styles */
+html{
+	background-image: url(MT_frog_background.jpg);
+}
+
+/* Page Body Styles */
+
+body {
+   
+   font-family: Verdana, Geneva, Arial, sans-serif; 	
+   margin-left: auto;
+   margin-right: auto;
+   width: 760px;
+   opacity: 0.9;
+}
+
+/*Heading styles */
+
+article.judge h3{
+	font-size: 1.5em;
+	font-weight: normal;
+	background-color: rgb(90,110,10);
+	
+}
+
+article.life h3{
+	font-size: 1.5em;
+	font-weight: normal;
+	background-color: rgb(90,110,10);
+	
+}
+
+article.life img {
+	padding:10px 20px 10px 30px ;
+}
+
+
+article.judge img {
+	padding:10px 20px 10px 30px ;
+	opacity:0.7;
+}
+
+/*Article Styles */
+article {
+	background: url(tb_back4.png) 100% / cover no-repeat;
+	padding: 30px 20px 10px 20px;
+}
+
+article header h1 {
+	text-align:center;
+	background: rgb(168,251,152);
+}
+
+article.judge h1 {
+	font-size: 1.5em;
+}
+/* Navigation Styles */
+
+
+body >  nav#mainLinks {
+	background-color: rgb(51, 52, 45);
+	color: white;
+	line-height: 1.7em;
+	text-align: right;
+	padding: 5px 10px 5px 0px;
+}
+
+
+nav#mainLinks ul li {
+	background-color: rgb(53, 98, 42);	
+	display: block;
+	float: left;
+	text-align: center;
+	width: 29%;	
+}
+
+nav#mainLinks ul li a {
+	color: white;	
+	display: block;
+	height: 2.5em;	
+	text-align: center;
+	line-height: 2.5em;	
+}
+
+
+/*Footer */
+
+footer{
+ background: rgba(144,238,144,0.3);
+
+}

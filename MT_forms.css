@@ -1,0 +1,71 @@
+/*
+   
+	
+	Author  : Kelwin Mahulkar
+	Date	: 30 March, 2020.
+	
+   Filename: MT_forms2.css
+
+*/
+
+/* Form Layout Styles */
+
+form {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+} 
+
+fieldset {
+   background-color: rgb(170,209,183);
+   -webkit-flex: 1 1 300px;
+   flex: 1 1 300px; 
+   margin: 8px;  
+}
+
+div {
+   margin: 6px 4px 2px 2px;
+   width: 80%;
+}
+
+legend {
+   color: rgb(57,255,20);
+   background-color: rgb(90,110,10);
+}
+
+label {
+   display: inline-block;
+   width: 320px;
+}
+
+img[src="rb_sizes.png"] {
+   display: block;
+   margin-left: 135px;
+}
+
+fieldset#accInfo label, fieldset#otherInfo label {
+   margin-bottom: 10px;
+   width: 100%;
+}
+
+textarea {
+   display: block;
+   width: 90%;
+   height: 100px;
+}
+
+input[type="submit"] {
+   height: 50px;
+   width: 200px;
+}
+
+input[type="reset"] {
+   height: 50px;
+   width: 200px;
+}
+
+
+input#sizeBox {
+   width: 240px;
+}
